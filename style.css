@@ -1,0 +1,169 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:rgb(207, 199, 199);
+   margin: 20px;
+  color: #373636;
+  font-size: 13px;
+}
+
+.form-container {
+  background-color: #f2f2f2;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.asterisk {
+  color: #c00000;
+  font-weight: bold;
+}
+.required-note {
+  font-size: 11px;
+  color: #c00000;
+  margin-bottom: 5px;
+}
+
+.step-indicator {
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 15px;
+  color: #666666;
+}
+.step-indicator .active-step {
+  color: #000000;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+legend {
+  color: #b00000;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 6px 10px;
+  align-items: start;
+}
+
+.form-grid label {
+  text-align: right;
+  font-weight: bold;
+  font-size: 12px;
+  padding-top: 3px;
+}
+
+.sub-label {
+  font-weight: normal;
+  font-size: 10px;
+  color: #555555;
+  display: inline-block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  width: 90%;
+  max-width: 280px;
+  padding: 2px 4px;
+  font-size: 12px;
+  border: 1px solid #7f9db9;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  max-width: 320px;
+  resize: vertical;
+}
+
+.small-input {
+  width: 70px !important;
+}
+
+.tiny-input {
+  width: 40px !important;
+}
+
+.radio-group,
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 12px;
+}
+
+.radio-group label,
+.checkbox-group label {
+  text-align: left;
+  font-weight: normal;
+}
+
+.inline-input,
+.inline-fields {
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+}
+
+.section-instruction {
+  font-size: 12px;
+  color: #333333;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.checkbox-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-left: 230px;
+  font-size: 12px;
+}
+
+.checkbox-list label {
+  font-weight: normal;
+  text-align: left;
+}
+
+.margin-top {
+  margin-top: 10px;
+}
+
+.button-group {
+  text-align: center;
+  margin: 20px 0 15px 0;
+}
+
+.button-group button {
+  padding: 3px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  margin: 0 4px;
+}
+
+.security-footer {
+  text-align: center;
+  font-size: 11px;
+  color: #444444;
+  border-top: 1px dotted #aaaaaa;
+  padding-top: 10px;
+}
+
+.security-footer p {
+  margin: 3px 0;
+}
